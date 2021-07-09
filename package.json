@@ -10,16 +10,13 @@
     "postbuild": "next-sitemap --config next-sitemap.config.js"
   },
   "dependencies": {
-    "atomize": "^1.0.28",
     "next": "11.0.1",
     "next-images": "^1.8.1",
     "next-pwa": "^5.2.23",
     "next-seo": "^4.26.0",
     "next-sitemap": "^1.6.133",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-transition-group": "^4.4.2",
-    "styletron-react": "^6.0.1"
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
     "@types/react": "17.0.14",
