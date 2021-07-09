@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://lukasweidich.de
+
+# Sitemaps
+Sitemap: https://lukasweidich.de/sitemap.xml
