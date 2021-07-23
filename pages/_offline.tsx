@@ -5,10 +5,10 @@ const _offline = () => {
 	return (
 		<div>
 			<NextSeo
-				title="You&aposre offline"
-				description="A short description goes here."
+				title="You're offline"
+				description="Please check your internet connection."
 			/>
-			You&aposre offline :(
+			You're offline :(
 		</div>
 	);
 };

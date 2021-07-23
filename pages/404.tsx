@@ -4,10 +4,7 @@ import React from "react";
 const NotFoundPage = () => {
 	return (
 		<>
-			<NextSeo
-				title="404 - Page not found"
-				description="A short description goes here."
-			/>
+			<NextSeo title="404 - Page not found" description="Page not found" />
 			404 :(
 		</>
 	);

@@ -16,7 +16,12 @@ const ProjectsSection: React.FC<Record<string, unknown>> = () => {
 				<Grid xs={24}>
 					<Text span>
 						For more projects, please visit{" "}
-						<Link color target="_blank" href="https://github.com/lukasweidich">
+						<Link
+							color
+							target="_blank"
+							rel="noopener"
+							href="https://github.com/lukasweidich"
+						>
 							my GitHub account
 						</Link>
 						.

@@ -30,10 +30,8 @@ const Header: React.FC<Record<string, unknown>> = () => {
 				onChange={(pathname) => router.push(pathname)}
 				hideDivider
 			>
-				{Object.entries(HEADER_LINKS).map(([key, value]) => (
-					<>
-						<Tabs.Item key={key} label={key} value={value} />
-					</>
+				{Object.entries(HEADER_LINKS).map(([key, value], i) => (
+					<Tabs.Item key={i} label={key} value={value} />
 				))}
 			</Tabs>
 		</>

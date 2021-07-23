@@ -5,10 +5,7 @@ import ProjectsSection from "../components/ProjectsSection";
 const projects = () => {
 	return (
 		<>
-			<NextSeo
-				title="Lukas Weidich"
-				description="A short description goes here."
-			/>
+			<NextSeo title="Projects" description="Lukas Weidich - Projects." />
 			<ProjectsSection />
 		</>
 	);

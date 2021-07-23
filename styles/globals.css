@@ -1,3 +1,18 @@
 body.loading {
 	display: none;
 }
+
+.about > .item {
+	height: max-content !important;
+}
+
+ul,
+ol {
+	color: unset !important;
+	margin-bottom: 0 !important;
+}
+
+li:last-child,
+ol:last-child {
+	margin-bottom: 0 !important;
+}
