@@ -26,7 +26,7 @@ export default class extends Document {
 					<link rel="manifest" href="/manifest.json" />
 					<link rel="shortcut icon" href="/favicon.ico" />
 				</Head>
-				<body>
+				<body className="loading">
 					<Main />
 					<NextScript />
 				</body>

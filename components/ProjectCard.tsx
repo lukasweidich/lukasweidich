@@ -26,7 +26,7 @@ const ProjectCard: React.FC<Project> = ({
 			</Text>
 			<Card.Footer>
 				{linked ? (
-					<Link color target="_blank" href={href}>
+					<Link color target="_blank" rel="noopener" href={href}>
 						Visit project for more details.
 					</Link>
 				) : (
